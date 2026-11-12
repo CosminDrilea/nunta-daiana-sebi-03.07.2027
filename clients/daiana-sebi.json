@@ -1,0 +1,189 @@
+{
+  "clientId": "daiana-sebi",
+  "couple": {
+    "firstNameA": "Daiana",
+    "firstNameB": "Sebi",
+    "initialA": "D",
+    "initialB": "S"
+  },
+  "event": {
+    "date": "2027-07-03T00:00:00+03:00",
+    "dateLabel": "3 iulie 2027",
+    "rsvpDeadline": "data stabilită",
+    "pageTitle": "Daiana & Sebi — Invitație de nuntă"
+  },
+  "theme": {
+    "background": "#faf3e9",
+    "ink": "#372820",
+    "accent": "#824b37",
+    "heroImage": "assets/coperta.jpeg",
+    "heroPosition": "center 39%",
+    "fonts": {
+      "body": "DM Sans",
+      "display": "Playfair Display"
+    },
+    "sectionBackgrounds": {
+      "story": "#faf3e9",
+      "people": "#f1e3d3",
+      "schedule": "#faf3e9",
+      "countdown": "#49332a",
+      "details": "#f1e3d3",
+      "gallery": "#faf3e9",
+      "rsvp": "#eedbca",
+      "gift": "#faf3e9"
+    },
+    "sectionImages": {
+      "story": "assets/program.jpeg",
+      "people": "",
+      "schedule": "assets/poveste.jpeg",
+      "countdown": "",
+      "details": "",
+      "gallery": "",
+      "rsvp": "",
+      "gift": "assets/final.jpeg"
+    },
+    "sectionImageOverlays": {
+      "story": "rgba(250, 243, 233, .50)",
+      "schedule": "rgba(250, 243, 233, .54)",
+      "gift": "rgba(250, 243, 233, .50)"
+    }
+  },
+  "features": {
+    "story": true,
+    "people": true,
+    "schedule": true,
+    "countdown": true,
+    "maps": true,
+    "gallery": true,
+    "rsvp": true,
+    "menuCounts": true,
+    "dietaryNeeds": true,
+    "details": true,
+    "share": true,
+    "personalizedLinks": false,
+    "gift": true,
+    "music": true,
+    "calendar": true
+  },
+  "hero": {
+    "eyebrow": "CU BUCURIE VĂ INVITĂM",
+    "sideNote": "O ZI · O POVESTE · ÎMPREUNĂ"
+  },
+  "story": {
+    "kicker": "NE CĂSĂTORIM",
+    "title": "Unele povești<br />devin <em>acasă.</em>",
+    "body": "Ne bucurăm să vă invităm să luați parte la începutul unui nou capitol din povestea noastră. Vă așteptăm cu drag să sărbătorim împreună."
+  },
+  "people": {
+    "parentsLabel": "PĂRINȚII NOȘTRI",
+    "parents": "Numele părinților miresei<br />Numele părinților mirelui",
+    "witnessesLabel": "NAȘII NOȘTRI",
+    "witnesses": "Numele nașilor"
+  },
+  "events": [
+    {
+      "time": "De stabilit",
+      "title": "Ceremonia",
+      "venue": "Locația va fi completată",
+      "address": "",
+      "mapUrl": ""
+    },
+    {
+      "time": "De stabilit",
+      "title": "Petrecerea",
+      "venue": "Locația va fi completată",
+      "address": "",
+      "mapUrl": ""
+    }
+  ],
+  "schedule": {
+    "kicker": "3 IULIE 2027",
+    "title": "Ne vedem<br /><em>la sărbătoare.</em>"
+  },
+  "details": {
+    "dressCode": "Ținută elegantă",
+    "parking": "Detaliile vor fi completate",
+    "accommodation": "Recomandările vor fi completate",
+    "brideName": "Daiana",
+    "bridePhone": "",
+    "groomName": "Sebi",
+    "groomPhone": ""
+  },
+  "countdown": {
+    "kicker": "NUMĂRĂM ZILELE",
+    "title": "Până la<br /><em>„Da”.</em>"
+  },
+  "gallery": [
+    "assets/IMG_3204.jpeg",
+    "assets/IMG_3205.jpeg",
+    "assets/IMG_3206.jpeg",
+    "assets/final.jpeg",
+    "assets/poveste.jpeg",
+    "assets/coperta.jpeg",
+    "assets/program.jpeg",
+    "assets/IMG_3200.jpeg",
+    "assets/IMG_3201.jpeg",
+    "assets/IMG_3202.jpeg"
+  ],
+  "rsvp": {
+    "kicker": "VĂ RUGĂM SĂ CONFIRMAȚI",
+    "title": "Ne-ar face<br /><em>mare plăcere.</em>",
+    "note": "Vă rugăm să ne răspundeți până la data stabilită.",
+    "maxGuests": 6,
+    "menuOptions": [
+      "Normal",
+      "Vegetarian",
+      "Vegan",
+      "Copii"
+    ],
+    "appsScriptUrl": "https://script.google.com/macros/s/AKfycbzicvSbGJ9O0X8RvCUMYJ-r_w0HfHkBmfKcqUXjH_UbXnE0yEBW9qaT_p2LCndLUDvpWw/exec"
+  },
+  "gift": {
+    "kicker": "GÂNDURI BUNE ȘI INIMI APROAPE",
+    "title": "Prezența voastră<br />este <em>darul nostru.</em>",
+    "danceTime": "",
+    "details": ""
+  },
+  "footer": {
+    "copyright": "© Design și concept · Cosmin Drilea"
+  },
+  "buttons": {
+    "story": {
+      "label": "Cunoaște oamenii dragi",
+      "target": "#oameni"
+    },
+    "people": {
+      "label": "Vezi programul zilei",
+      "target": "#program"
+    },
+    "schedule": {
+      "label": "Vezi detaliile locației",
+      "target": "#detalii"
+    },
+    "countdown": {
+      "label": "Confirmă prezența",
+      "target": "#rsvp"
+    },
+    "details": {
+      "label": "Vezi fotografiile",
+      "target": "#galerie"
+    },
+    "gallery": {
+      "label": "Răspunde invitației",
+      "target": "#rsvp"
+    },
+    "rsvp": {
+      "label": "Vezi cât mai avem de așteptat",
+      "target": "#numaratoare"
+    },
+    "gift": {
+      "label": "Înapoi la început",
+      "target": "#acasa"
+    }
+  },
+  "music": {
+    "src": "assets/romantic-piano.mp3",
+    "label": "Pornește muzica",
+    "credit": "Romantic Piano — leberch, Pixabay (Pixabay Content License)"
+  }
+}
