@@ -12,17 +12,15 @@ export function initRsvp(config, invitee = null) {
   const appsScriptUrl = config.rsvp.appsScriptUrl?.trim() || '';
   const bridgeResponses = new Map();
   if (!isLocalServer && bridge && appsScriptUrl) {
-    bridge.name = `rsvp-bridge-${config.clientId}`;
     window.addEventListener('message', event => {
       const trustedOrigin = event.origin === 'https://script.google.com'
-        || event.origin.endsWith('script.googleusercontent.com');
+        || /^https:\/\/(?:[a-z0-9-]+-)?script\.googleusercontent\.com$/.test(event.origin);
       if (!trustedOrigin || !event.data) return;
       if (event.data.type === 'rsvp-result') {
         bridgeResponses.get(event.data.requestId)?.(event.data.result);
         bridgeResponses.delete(event.data.requestId);
       }
     });
-    bridge.src = appsScriptUrl;
   }
   const sendRsvp = async payload => {
     if (isLocalServer) {
